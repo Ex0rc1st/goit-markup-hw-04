@@ -184,6 +184,7 @@ img {
 }
 
 /* Main */
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -231,6 +232,7 @@ img {
 
 
 /* Our Work */
+
 .our-work {
   padding-top: 0;
 }
@@ -258,6 +260,7 @@ img {
 }
 
 /* Our Team */
+
 .our-team {
   background-color: var(--background-our-team-section);
 
@@ -339,6 +342,7 @@ img {
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 /* Our Clients */
 
 .our-clients-logo-link {
