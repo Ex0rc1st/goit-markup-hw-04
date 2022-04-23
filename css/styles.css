@@ -123,6 +123,15 @@ img {
   background-color: var(--background-color);
   text-align: center;
 
+  /* rgba(47, 48, 58, 0.4) */
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+
   /* временно */
   padding-top: 200px;
   height: 600px;
@@ -231,7 +240,8 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.our-team-title {
+.our-team-title,
+.our-clients-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -268,6 +278,9 @@ img {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
   background: var(--background-white);
+}
+.our-clients-title {
+  margin-bottom: 50px;
 }
 
 /* Footer */
